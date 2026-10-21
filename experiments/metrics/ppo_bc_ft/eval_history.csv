@@ -1,0 +1,5 @@
+timesteps,hunter_win_rate,escape_rate,timeout_rate,mean_time_to_capture,interception_rate,false_investigations_per_ep,wall_clock_s
+50000,0.725,0.175,0.1,61.48275862068966,0.25,0.1,230
+100000,0.675,0.275,0.05,45.22222222222222,0.2,0.175,423
+150000,0.8,0.175,0.025,71.40625,0.2,0.2,658
+200000,0.75,0.2,0.05,55.233333333333334,0.125,0.1,870
