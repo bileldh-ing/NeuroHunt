@@ -1,0 +1,794 @@
+{
+  "random": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.2611111111111111,
+        "std": 0.0392837100659193
+      },
+      "escape_rate": {
+        "mean": 0.561111111111111,
+        "std": 0.03424674446093873
+      },
+      "timeout_rate": {
+        "mean": 0.17777777777777778,
+        "std": 0.05499719409228703
+      },
+      "interception_rate": {
+        "mean": 0.06666666666666667,
+        "std": 0.01360827634879543
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.2111111111111111,
+        "std": 0.06712803318663652
+      },
+      "mean_time_to_capture": {
+        "mean": 142.9110275689223,
+        "std": 16.6173443407442
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.12535612535612536,
+        "ghost": 0.1726190476190476,
+        "hider": 0.0,
+        "runner": 0.4861111111111111,
+        "trickster": 0.34841269841269845,
+        "unpredictable": 0.2681818181818182,
+        "wanderer": 0.3492424242424243
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.31666666666666665,
+        "escape_rate": 0.5666666666666667,
+        "timeout_rate": 0.11666666666666667,
+        "mean_time_to_capture": 137.94736842105263,
+        "interception_rate": 0.06666666666666667,
+        "false_investigations_per_ep": 0.25,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.2222222222222222,
+          "ghost": 0.375,
+          "hider": 0.0,
+          "runner": 0.5,
+          "trickster": 0.2,
+          "unpredictable": 0.45454545454545453,
+          "wanderer": 0.375
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.23333333333333334,
+        "escape_rate": 0.6,
+        "timeout_rate": 0.16666666666666666,
+        "mean_time_to_capture": 125.5,
+        "interception_rate": 0.08333333333333333,
+        "false_investigations_per_ep": 0.11666666666666667,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.15384615384615385,
+          "ghost": 0.0,
+          "hider": 0.0,
+          "runner": 0.625,
+          "trickster": 0.42857142857142855,
+          "unpredictable": 0.1,
+          "wanderer": 0.2727272727272727
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.23333333333333334,
+        "escape_rate": 0.5166666666666667,
+        "timeout_rate": 0.25,
+        "mean_time_to_capture": 165.28571428571428,
+        "interception_rate": 0.05,
+        "false_investigations_per_ep": 0.26666666666666666,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.0,
+          "ghost": 0.14285714285714285,
+          "hider": 0.0,
+          "runner": 0.3333333333333333,
+          "trickster": 0.4166666666666667,
+          "unpredictable": 0.25,
+          "wanderer": 0.4
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  },
+  "patrol_chaser": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.8833333333333333,
+        "std": 0.01360827634879543
+      },
+      "escape_rate": {
+        "mean": 0.09999999999999999,
+        "std": 0.013608276348795436
+      },
+      "timeout_rate": {
+        "mean": 0.016666666666666666,
+        "std": 0.013608276348795434
+      },
+      "interception_rate": {
+        "mean": 0.05000000000000001,
+        "std": 0.013608276348795433
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.5,
+        "std": 0.05931710140017397
+      },
+      "mean_time_to_capture": {
+        "mean": 62.059470694690816,
+        "std": 7.32911575080844
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.8425925925925926,
+        "ghost": 0.7590909090909091,
+        "hider": 0.7904761904761904,
+        "runner": 1.0,
+        "trickster": 0.9333333333333332,
+        "unpredictable": 0.9212962962962963,
+        "wanderer": 0.875
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.8666666666666667,
+        "escape_rate": 0.1,
+        "timeout_rate": 0.03333333333333333,
+        "mean_time_to_capture": 69.3076923076923,
+        "interception_rate": 0.03333333333333333,
+        "false_investigations_per_ep": 0.45,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.75,
+          "ghost": 0.8,
+          "hider": 0.8,
+          "runner": 1.0,
+          "trickster": 1.0,
+          "unpredictable": 0.8888888888888888,
+          "wanderer": 0.75
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.8833333333333333,
+        "escape_rate": 0.11666666666666667,
+        "timeout_rate": 0.0,
+        "mean_time_to_capture": 52.0188679245283,
+        "interception_rate": 0.05,
+        "false_investigations_per_ep": 0.4666666666666667,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.8888888888888888,
+          "ghost": 0.75,
+          "hider": 0.7142857142857143,
+          "runner": 1.0,
+          "trickster": 0.8,
+          "unpredictable": 1.0,
+          "wanderer": 0.875
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.9,
+        "escape_rate": 0.08333333333333333,
+        "timeout_rate": 0.016666666666666666,
+        "mean_time_to_capture": 64.85185185185185,
+        "interception_rate": 0.06666666666666667,
+        "false_investigations_per_ep": 0.5833333333333334,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.8888888888888888,
+          "ghost": 0.7272727272727273,
+          "hider": 0.8571428571428571,
+          "runner": 1.0,
+          "trickster": 1.0,
+          "unpredictable": 0.875,
+          "wanderer": 1.0
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  },
+  "habit_heuristic": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.9,
+        "std": 0.04906533814626583
+      },
+      "escape_rate": {
+        "mean": 0.07777777777777778,
+        "std": 0.04374448818895451
+      },
+      "timeout_rate": {
+        "mean": 0.022222222222222223,
+        "std": 0.020786985482077452
+      },
+      "interception_rate": {
+        "mean": 0.061111111111111116,
+        "std": 0.028327886186626582
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.19444444444444445,
+        "std": 0.0477906959280146
+      },
+      "mean_time_to_capture": {
+        "mean": 40.37750519856609,
+        "std": 2.914566515797032
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.919047619047619,
+        "ghost": 0.8301587301587302,
+        "hider": 0.8727272727272727,
+        "runner": 0.9444444444444445,
+        "trickster": 0.8380952380952381,
+        "unpredictable": 0.9107142857142857,
+        "wanderer": 1.0
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.8833333333333333,
+        "escape_rate": 0.11666666666666667,
+        "timeout_rate": 0.0,
+        "mean_time_to_capture": 36.301886792452834,
+        "interception_rate": 0.03333333333333333,
+        "false_investigations_per_ep": 0.13333333333333333,
+        "win_rate_by_profile": {
+          "creature_of_habit": 1.0,
+          "ghost": 0.8571428571428571,
+          "hider": 0.8,
+          "runner": 1.0,
+          "trickster": 0.7142857142857143,
+          "unpredictable": 0.8571428571428571,
+          "wanderer": 1.0
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.9666666666666667,
+        "escape_rate": 0.016666666666666666,
+        "timeout_rate": 0.016666666666666666,
+        "mean_time_to_capture": 42.94827586206897,
+        "interception_rate": 0.05,
+        "false_investigations_per_ep": 0.2,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.9,
+          "ghost": 0.8333333333333334,
+          "hider": 1.0,
+          "runner": 1.0,
+          "trickster": 1.0,
+          "unpredictable": 1.0,
+          "wanderer": 1.0
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.85,
+        "escape_rate": 0.1,
+        "timeout_rate": 0.05,
+        "mean_time_to_capture": 41.88235294117647,
+        "interception_rate": 0.1,
+        "false_investigations_per_ep": 0.25,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.8571428571428571,
+          "ghost": 0.8,
+          "hider": 0.8181818181818182,
+          "runner": 0.8333333333333334,
+          "trickster": 0.8,
+          "unpredictable": 0.875,
+          "wanderer": 1.0
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  },
+  "ppo_scratch_v1": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.7555555555555555,
+        "std": 0.039283710065919325
+      },
+      "escape_rate": {
+        "mean": 0.2333333333333333,
+        "std": 0.036004114991154766
+      },
+      "timeout_rate": {
+        "mean": 0.011111111111111112,
+        "std": 0.007856742013183862
+      },
+      "interception_rate": {
+        "mean": 0.07222222222222223,
+        "std": 0.00785674201318386
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.11111111111111112,
+        "std": 0.028327886186626582
+      },
+      "mean_time_to_capture": {
+        "mean": 35.54120229652145,
+        "std": 3.062058580229768
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.8717948717948718,
+        "ghost": 0.8363636363636364,
+        "hider": 0.9209401709401709,
+        "runner": 0.6121212121212121,
+        "trickster": 0.7703703703703703,
+        "unpredictable": 0.6536796536796537,
+        "wanderer": 0.6507936507936508
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.7833333333333333,
+        "escape_rate": 0.21666666666666667,
+        "timeout_rate": 0.0,
+        "mean_time_to_capture": 38.255319148936174,
+        "interception_rate": 0.08333333333333333,
+        "false_investigations_per_ep": 0.15,
+        "win_rate_by_profile": {
+          "creature_of_habit": 1.0,
+          "ghost": 0.6,
+          "hider": 0.9166666666666666,
+          "runner": 0.5,
+          "trickster": 0.8666666666666667,
+          "unpredictable": 0.8181818181818182,
+          "wanderer": 0.6666666666666666
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.7,
+        "escape_rate": 0.2833333333333333,
+        "timeout_rate": 0.016666666666666666,
+        "mean_time_to_capture": 31.261904761904763,
+        "interception_rate": 0.06666666666666667,
+        "false_investigations_per_ep": 0.08333333333333333,
+        "win_rate_by_profile": {
+          "creature_of_habit": 1.0,
+          "ghost": 1.0,
+          "hider": 0.8461538461538461,
+          "runner": 0.6363636363636364,
+          "trickster": 0.5555555555555556,
+          "unpredictable": 0.2857142857142857,
+          "wanderer": 0.5714285714285714
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.7833333333333333,
+        "escape_rate": 0.2,
+        "timeout_rate": 0.016666666666666666,
+        "mean_time_to_capture": 37.1063829787234,
+        "interception_rate": 0.06666666666666667,
+        "false_investigations_per_ep": 0.1,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.6153846153846154,
+          "ghost": 0.9090909090909091,
+          "hider": 1.0,
+          "runner": 0.7,
+          "trickster": 0.8888888888888888,
+          "unpredictable": 0.8571428571428571,
+          "wanderer": 0.7142857142857143
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  },
+  "imitation_only (bc_init)": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.6166666666666667,
+        "std": 0.023570226039551553
+      },
+      "escape_rate": {
+        "mean": 0.2333333333333333,
+        "std": 0.05931710140017395
+      },
+      "timeout_rate": {
+        "mean": 0.15,
+        "std": 0.036004114991154766
+      },
+      "interception_rate": {
+        "mean": 0.1722222222222222,
+        "std": 0.031426968052735454
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.15,
+        "std": 0.01360827634879543
+      },
+      "mean_time_to_capture": {
+        "mean": 47.87293233082707,
+        "std": 2.0546358883301226
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.49444444444444446,
+        "ghost": 0.5454545454545454,
+        "hider": 0.521885521885522,
+        "runner": 0.850108225108225,
+        "trickster": 0.5377585377585378,
+        "unpredictable": 0.7555555555555555,
+        "wanderer": 0.701010101010101
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.6333333333333333,
+        "escape_rate": 0.2,
+        "timeout_rate": 0.16666666666666666,
+        "mean_time_to_capture": 48.26315789473684,
+        "interception_rate": 0.15,
+        "false_investigations_per_ep": 0.16666666666666666,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.6666666666666666,
+          "ghost": 0.6363636363636364,
+          "hider": 0.45454545454545453,
+          "runner": 0.8181818181818182,
+          "trickster": 0.45454545454545453,
+          "unpredictable": 0.8,
+          "wanderer": 0.8
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.5833333333333334,
+        "escape_rate": 0.31666666666666665,
+        "timeout_rate": 0.1,
+        "mean_time_to_capture": 50.17142857142857,
+        "interception_rate": 0.15,
+        "false_investigations_per_ep": 0.13333333333333333,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.4,
+          "ghost": 0.5,
+          "hider": 0.4444444444444444,
+          "runner": 0.8571428571428571,
+          "trickster": 0.4444444444444444,
+          "unpredictable": 0.8,
+          "wanderer": 0.6666666666666666
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.6333333333333333,
+        "escape_rate": 0.18333333333333332,
+        "timeout_rate": 0.18333333333333332,
+        "mean_time_to_capture": 45.18421052631579,
+        "interception_rate": 0.21666666666666667,
+        "false_investigations_per_ep": 0.15,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.4166666666666667,
+          "ghost": 0.5,
+          "hider": 0.6666666666666666,
+          "runner": 0.875,
+          "trickster": 0.7142857142857143,
+          "unpredictable": 0.6666666666666666,
+          "wanderer": 0.6363636363636364
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  },
+  "ppo_early (ckpt_25000_steps)": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.6666666666666666,
+        "std": 0.02721655269759086
+      },
+      "escape_rate": {
+        "mean": 0.19444444444444445,
+        "std": 0.04157397096415491
+      },
+      "timeout_rate": {
+        "mean": 0.13888888888888887,
+        "std": 0.01571348402636772
+      },
+      "interception_rate": {
+        "mean": 0.19444444444444445,
+        "std": 0.056655772373253165
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.11666666666666665,
+        "std": 0.03600411499115477
+      },
+      "mean_time_to_capture": {
+        "mean": 46.9593776106934,
+        "std": 0.8746406481856995
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.6638694638694639,
+        "ghost": 0.5515873015873015,
+        "hider": 0.46296296296296297,
+        "runner": 0.7805555555555556,
+        "trickster": 0.6243386243386243,
+        "unpredictable": 0.7590909090909091,
+        "wanderer": 0.8333333333333334
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.6333333333333333,
+        "escape_rate": 0.25,
+        "timeout_rate": 0.11666666666666667,
+        "mean_time_to_capture": 48.1578947368421,
+        "interception_rate": 0.25,
+        "false_investigations_per_ep": 0.15,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.5454545454545454,
+          "ghost": 0.4166666666666667,
+          "hider": 0.5,
+          "runner": 0.8,
+          "trickster": 0.8571428571428571,
+          "unpredictable": 0.7272727272727273,
+          "wanderer": 0.8333333333333334
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.7,
+        "escape_rate": 0.15,
+        "timeout_rate": 0.15,
+        "mean_time_to_capture": 46.095238095238095,
+        "interception_rate": 0.21666666666666667,
+        "false_investigations_per_ep": 0.13333333333333333,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.8461538461538461,
+          "ghost": 0.6666666666666666,
+          "hider": 0.5555555555555556,
+          "runner": 0.6666666666666666,
+          "trickster": 0.4444444444444444,
+          "unpredictable": 0.75,
+          "wanderer": 1.0
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.6666666666666666,
+        "escape_rate": 0.18333333333333332,
+        "timeout_rate": 0.15,
+        "mean_time_to_capture": 46.625,
+        "interception_rate": 0.11666666666666667,
+        "false_investigations_per_ep": 0.06666666666666667,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.6,
+          "ghost": 0.5714285714285714,
+          "hider": 0.3333333333333333,
+          "runner": 0.875,
+          "trickster": 0.5714285714285714,
+          "unpredictable": 0.8,
+          "wanderer": 0.6666666666666666
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  },
+  "ppo_final": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.7166666666666667,
+        "std": 0.04906533814626583
+      },
+      "escape_rate": {
+        "mean": 0.17777777777777778,
+        "std": 0.02078698548207746
+      },
+      "timeout_rate": {
+        "mean": 0.10555555555555556,
+        "std": 0.061363116762151435
+      },
+      "interception_rate": {
+        "mean": 0.2222222222222222,
+        "std": 0.0906083690572227
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.1611111111111111,
+        "std": 0.00785674201318386
+      },
+      "mean_time_to_capture": {
+        "mean": 51.05422998986828,
+        "std": 9.872582633871927
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.8055555555555555,
+        "ghost": 0.4603174603174603,
+        "hider": 0.49444444444444446,
+        "runner": 0.6447811447811448,
+        "trickster": 0.7898989898989899,
+        "unpredictable": 0.888888888888889,
+        "wanderer": 0.8009259259259259
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.7833333333333333,
+        "escape_rate": 0.18333333333333332,
+        "timeout_rate": 0.03333333333333333,
+        "mean_time_to_capture": 41.723404255319146,
+        "interception_rate": 0.1,
+        "false_investigations_per_ep": 0.15,
+        "win_rate_by_profile": {
+          "creature_of_habit": 1.0,
+          "ghost": 0.7142857142857143,
+          "hider": 0.4,
+          "runner": 0.5454545454545454,
+          "trickster": 0.8333333333333334,
+          "unpredictable": 1.0,
+          "wanderer": 0.75
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.6666666666666666,
+        "escape_rate": 0.15,
+        "timeout_rate": 0.18333333333333332,
+        "mean_time_to_capture": 46.725,
+        "interception_rate": 0.31666666666666665,
+        "false_investigations_per_ep": 0.16666666666666666,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.6666666666666666,
+          "ghost": 0.3333333333333333,
+          "hider": 0.3333333333333333,
+          "runner": 0.5,
+          "trickster": 0.9,
+          "unpredictable": 0.8333333333333334,
+          "wanderer": 0.875
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.7,
+        "escape_rate": 0.2,
+        "timeout_rate": 0.1,
+        "mean_time_to_capture": 64.71428571428571,
+        "interception_rate": 0.25,
+        "false_investigations_per_ep": 0.16666666666666666,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.75,
+          "ghost": 0.3333333333333333,
+          "hider": 0.75,
+          "runner": 0.8888888888888888,
+          "trickster": 0.6363636363636364,
+          "unpredictable": 0.8333333333333334,
+          "wanderer": 0.7777777777777778
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  },
+  "ppo_best": {
+    "aggregate": {
+      "hunter_win_rate": {
+        "mean": 0.6388888888888888,
+        "std": 0.03928371006591927
+      },
+      "escape_rate": {
+        "mean": 0.24444444444444446,
+        "std": 0.03424674446093875
+      },
+      "timeout_rate": {
+        "mean": 0.11666666666666665,
+        "std": 0.023570226039551584
+      },
+      "interception_rate": {
+        "mean": 0.19444444444444445,
+        "std": 0.020786985482077462
+      },
+      "false_investigations_per_ep": {
+        "mean": 0.1722222222222222,
+        "std": 0.08854098583616236
+      },
+      "mean_time_to_capture": {
+        "mean": 51.85476190476191,
+        "std": 4.149998292489334
+      },
+      "win_rate_by_profile": {
+        "creature_of_habit": 0.6638888888888889,
+        "ghost": 0.524074074074074,
+        "hider": 0.5185185185185185,
+        "runner": 0.7781385281385281,
+        "trickster": 0.6606837606837607,
+        "unpredictable": 0.7380952380952381,
+        "wanderer": 0.6412698412698412
+      }
+    },
+    "per_seed": [
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.6666666666666666,
+        "escape_rate": 0.25,
+        "timeout_rate": 0.08333333333333333,
+        "mean_time_to_capture": 46.575,
+        "interception_rate": 0.2,
+        "false_investigations_per_ep": 0.06666666666666667,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.625,
+          "ghost": 0.6,
+          "hider": 0.5,
+          "runner": 0.8571428571428571,
+          "trickster": 0.6666666666666666,
+          "unpredictable": 0.75,
+          "wanderer": 0.8571428571428571
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.5833333333333334,
+        "escape_rate": 0.2833333333333333,
+        "timeout_rate": 0.13333333333333333,
+        "mean_time_to_capture": 56.714285714285715,
+        "interception_rate": 0.21666666666666667,
+        "false_investigations_per_ep": 0.16666666666666666,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.6666666666666666,
+          "ghost": 0.4166666666666667,
+          "hider": 0.5,
+          "runner": 0.75,
+          "trickster": 0.6153846153846154,
+          "unpredictable": 0.7142857142857143,
+          "wanderer": 0.4
+        }
+      },
+      {
+        "episodes": 60,
+        "hunter_win_rate": 0.6666666666666666,
+        "escape_rate": 0.2,
+        "timeout_rate": 0.13333333333333333,
+        "mean_time_to_capture": 52.275,
+        "interception_rate": 0.16666666666666666,
+        "false_investigations_per_ep": 0.2833333333333333,
+        "win_rate_by_profile": {
+          "creature_of_habit": 0.7,
+          "ghost": 0.5555555555555556,
+          "hider": 0.5555555555555556,
+          "runner": 0.7272727272727273,
+          "trickster": 0.7,
+          "unpredictable": 0.75,
+          "wanderer": 0.6666666666666666
+        }
+      }
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "episodes_per_seed": 60
+  }
+}
