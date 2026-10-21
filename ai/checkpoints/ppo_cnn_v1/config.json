@@ -1,0 +1,49 @@
+{
+  "run_name": "ppo_cnn_v1",
+  "seed": 7,
+  "total_timesteps": 1500000,
+  "n_envs": 8,
+  "checkpoint_every": 25000,
+  "eval_every": 50000,
+  "eval_episodes": 40,
+  "ppo": {
+    "learning_rate": 0.0003,
+    "n_steps": 256,
+    "batch_size": 512,
+    "n_epochs": 3,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "clip_range": 0.2,
+    "ent_coef": 0.01,
+    "vf_coef": 0.5,
+    "max_grad_norm": 0.5
+  },
+  "policy": {
+    "cnn_dim": 128,
+    "vec_dim": 64,
+    "net_arch": [
+      128,
+      128
+    ]
+  },
+  "env": {
+    "max_steps": 300,
+    "vision_range": 6.0,
+    "fov_deg": 100.0,
+    "scan_range": 4.5,
+    "hearing_range": 6.0,
+    "player_move_prob": 0.85,
+    "history_episodes_max": 8,
+    "rewards": {
+      "catch": 100.0,
+      "intercept": 30.0,
+      "clue": 10.0,
+      "track": 2.0,
+      "empty_search": -5.0,
+      "wall_bump": -10.0,
+      "escape": -100.0,
+      "time_step": -0.1,
+      "scale": 0.01
+    }
+  }
+}
